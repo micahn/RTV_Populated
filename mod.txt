@@ -1,0 +1,8 @@
+[mod]
+name="Populated"
+id="populated"
+version="1.0.1"
+
+[autoload]
+PopulatedConfig="res://ModConfigurationMenu/PopulatedConfig.gd"
+Populated="res://mods/Populated/Main.gd"
