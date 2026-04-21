@@ -9,7 +9,7 @@ func _load_new_config(config: ConfigFile):
 
 func _ready():
     super()
-    var PC = get_tree().root.get_node("ModLoader/PopulatedConfig")
+    var PC = get_tree().root.get_node("ModLoader/RTV_PopulatedConfig")
     showDebug = PC._config.get_value("Bool", "showDebug").value
     PC.configChanged.connect(_load_new_config)
     AI = get_tree().root.get_node_or_null("/root/Map/AI")

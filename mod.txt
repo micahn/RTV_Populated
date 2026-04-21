@@ -1,8 +1,8 @@
 [mod]
-name="Populated"
-id="populated"
+name="RTV Populated"
+id="rtv-populated"
 version="1.0.1"
 
 [autoload]
-PopulatedConfig="res://ModConfigurationMenu/PopulatedConfig.gd"
-Populated="res://mods/Populated/Main.gd"
+RTV_PopulatedConfig="res://ModConfigurationMenu/RTV_PopulatedConfig.gd"
+RTV_Populated="res://RTV_Populated/Main.gd"

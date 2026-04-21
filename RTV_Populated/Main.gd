@@ -1,8 +1,8 @@
 extends Node
 
 func _ready():
-	overrideScript("res://mods/Populated/AISpawner.gd")
-	overrideScript("res://mods/Populated/HUD.gd")
+	overrideScript("res://RTV_Populated/AISpawner.gd")
+	overrideScript("res://RTV_Populated/HUD.gd")
 	if get_tree().current_scene != null:
 		get_tree().reload_current_scene()
 	queue_free()
